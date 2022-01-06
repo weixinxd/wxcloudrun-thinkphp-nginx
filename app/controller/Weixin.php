@@ -15,7 +15,7 @@ class Weixin
         $timestamp = $_GET["timestamp"];
         $nonce = $_GET["nonce"];
         
-        $token = 'Xl-MEysWAVd;~Kpx';
+        $token = 'PArnMjT048vw7GJ5';
         $tmpArr = array($token, $timestamp, $nonce);
         sort($tmpArr, 2);
         $tmpStr = implode( $tmpArr );
